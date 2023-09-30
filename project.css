@@ -1,14 +1,20 @@
-#wrapper{
+*{
     padding:0px;
     margin: 0px;
-    perspective: 10px;
+    box-sizing: border-box;
+}
+#wrapper{
+    height:100vh;
+    width:100vw;
+    overflow-x: hidden;
+    overflow-y: auto;
+
 }
 .container{
     display: flexbox;
     z-index: -1;
     transform-style: preserve-3d;
     position: relative;
-    overflow-x: hidden;
     justify-content: center;
     align-items: center;
 }
