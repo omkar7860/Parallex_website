@@ -8,4 +8,7 @@
     z-index: -1;
     transform-style: preserve-3d;
     position: relative;
+    overflow-x: hidden;
+    justify-content: center;
+    align-items: center;
 }
