@@ -27,9 +27,20 @@
     object-fit:cover;
 }
 .background{
-    transform: translateZ(-60px),scale(5);
+    transform: translateZ(-40px) scale(5);
 }
 .foreground{
-    transform:translateZ(-30px),scale(3);
+    transform:translateZ(-20px) scale(3);
 
+}
+.heading{
+    position:absolute;
+    font-size: 80px;
+    color: white;
+    top:5rem;
+    left:30%;
+    transform:translateX(-30px);
+    text-shadow:0 0 10px rgba(0 0 0 0.3);
+    font-family:Cambria, Cochin, Georgia, Times, 'Times New Roman', serif;
+    letter-spacing: 7px;
 }
