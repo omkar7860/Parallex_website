@@ -24,15 +24,12 @@
     position:absolute;
     height:100%;
     width:100%;
-    object-fit: cover;
-
+    object-fit:cover;
 }
 .background{
-    transform: translateZ(-80px);
-    transform: scale(3);
+    transform: translateZ(-60px),scale(5);
 }
 .foreground{
-    transform:translateZ(-20px),scale(2);
+    transform:translateZ(-30px),scale(3);
 
 }
-
