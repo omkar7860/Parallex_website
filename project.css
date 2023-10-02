@@ -48,7 +48,6 @@ section{
     background-color:rgb(45,45,45);
     color:white;
     padding:5rem 0;
-    position:relative;
 }
 .bg{
     background-image:url("img/sport-1.jpg");
@@ -75,4 +74,5 @@ section{
     height:500px;
     background-attachment: fixed;
     background-size: cover;
+    background-position: center;
 }
