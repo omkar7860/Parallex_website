@@ -76,3 +76,18 @@ section{
     background-size: cover;
     background-position: center;
 }
+.desc{
+    position:absolute;
+    top:50%;
+    right:50%;
+    background-color: white;
+    text-align:center;
+    transform: translateX(-20%) ;
+    color: black;
+    padding:0.5rem 2.5rem;
+    font: size 3.5rem;
+    
+}
+#xyz{
+    transform:translateX(20px);
+}
